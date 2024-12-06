@@ -1,14 +1,14 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: white;
 }
 h1{
     text-align: center;
-    color: aliceblue;
+    color: black;
 }
 p{
     text-align: center;
-    color: cyan;
+    color: black;
 }
 button{
     justify-content: center;
