@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>magic 8-ball</title>
+        <title>Magic Eight Ball</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,7 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <title>magic 8-ball</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -24,15 +24,27 @@
             <!-- place navbar here -->
         </header>
         <main>
-            <div id="magic 8-ball">
-                <h1>Magic 8-ball</h1>
-                <p id="response-text">
-                    Ask a question to the most glorious 8 Ball of wisdom...
-                </p>
-                <img id="response-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYMZRKXW_MNPRjZ727z5-LuriYWyp1_Ss1lA&s" alt="">
-                <button onclick="shakeMagic8Ball"   class="btn btn-success"> Click to Shake the 8ball </button> 
+<div class="container">
+    <div class="row">
+<div class="col align-self-center">
+<div id="magic-8-ball">
+    <h1>the game</h1>
+    </div>
+    <p id="greeting"></p>
+    <p id="response-text">
+       ask a question 
+    </p>
+</div>
+</div>
+    <div class="row">
+<img id="response-img" src="IMGS/Djungelskog.png" width="200px">
 
-            </div>
+<div class="col align-self-center">
+<button onclick="shakeMagic8Ball()" class="btn-text-success" >Press this</button>
+</div>
+</div>
+</div>
+
         </main>
         <footer>
             <!-- place footer here -->
